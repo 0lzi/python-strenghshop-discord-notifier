@@ -21,4 +21,14 @@ python3 -m venv ~/.python-strenghshop-discord-notifyer
 source ~/.python-strenghshop-discord-notifyer/bin/activate
 pip install --upgrade pip && pip install -r requirements.txt
 
+export WEBHOOK_URL=your-discord-webhook-here
+export URLS_JSON='[{"url": "https://www.example.com/product1", "price_threshold": 100.00}, {"url": "https://www.example.com/product2", "price_threshold": 150.00}, {"url": "https://www.example.com/product3", "price_threshold": 200.00}]'
+
+
+# Deactiveage and Clean up venv
+
+deactivate
+
+rm -r ~/.python-strenghshop-discord-notifyer
+
 ```
