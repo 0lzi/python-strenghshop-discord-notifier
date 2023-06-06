@@ -1,0 +1,4 @@
+# Insert requirements 
+requests
+beautifulsoup4
+discord_webhook

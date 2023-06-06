@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  scraper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - WEBHOOK_URL=${WEBHOOK_URL}
+      - URL=${PRODUCT_URL}
+    restart: unless-stopped
