@@ -1,4 +1,4 @@
-FROM --platform=${BUILDPLATFORM} python:3.9-alpine
+FROM python:3.9-alpine
 
 # Install dependencies
 RUN apk update && apk add --no-cache build-base libxml2-dev libxslt-dev

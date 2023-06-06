@@ -5,7 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    environment:
-      - WEBHOOK_URL=${WEBHOOK_URL}
-      - URL=${PRODUCT_URL}
+    env_file:
+      - .env
     restart: unless-stopped
