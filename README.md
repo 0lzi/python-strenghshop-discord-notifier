@@ -9,7 +9,7 @@ With the help of Youtube and ChatGPT I put together a discord bot that would not
 3. update the .env.example and rename to .env
 4. run `docker compose up -d`
 
-# Replace the urls in the URLS_JSON with the url you want to look for and the value in the thresholds to what price you want to be notified when it goes below.
+Replace the urls in the URLS_JSON with the url you want to look for and the value in the thresholds to what price you want to be notified when it goes below.
 
 
 
