@@ -25,7 +25,7 @@ export WEBHOOK_URL=your-discord-webhook-here
 export URLS_JSON='[{"url": "https://www.example.com/product1", "price_threshold": 100.00}, {"url": "https://www.example.com/product2", "price_threshold": 150.00}, {"url": "https://www.example.com/product3", "price_threshold": 200.00}]'
 
 
-# Deactiveage and Clean up venv
+# Deactiveate and Clean up venv
 
 deactivate
 

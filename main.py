@@ -1,7 +1,7 @@
 import requests
 import json
 from bs4 import BeautifulSoup
-from discord_webhook import DiscordWebhook#
+from discord_webhook import DiscordWebhook
 import os
 
 # Discord webhook URL
