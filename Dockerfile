@@ -13,7 +13,7 @@ COPY main.py .
 RUN pip install requests beautifulsoup4 discord-webhook
 
 # Add cron job to execute the script daily
-RUN echo "0 0 * * * python /app/scraper.py" > /etc/crontabs/root
+RUN echo "0 0 * * * python /app/main.py" > /etc/crontabs/root
 
 # Start cron in the foreground
 CMD ["crond", "-f"]
